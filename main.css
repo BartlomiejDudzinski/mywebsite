@@ -1,0 +1,66 @@
+body{
+
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background: #ffd0a8;
+font-family:'calibri', sans-serif;
+}
+
+.colorBtn{
+
+padding: 0.25rem 0.5rem;
+
+border: 3px solid #fefefe;
+
+border-radius: 7px;
+
+color:#fefefe;
+
+background: rgba(0,0,0,0.6);
+
+font-size: 0.85rem;
+
+text-transform: capitalize;
+
+cursor: pointer;
+
+outline: none;
+
+}
+
+.colorBtn:hover{
+
+	background: red;
+
+}
+
+
+
+.container{
+
+text-align: center;
+
+
+}
+
+.hexColor{
+
+text-transform: capitalize;
+
+
+}
+
+.hex{
+
+font-size: 3rem;
+
+}
+
+
+.hexBtn{
+color: red;
+cursor: pointer;
+
+}
